@@ -1,0 +1,21 @@
+.contenedor {
+    width: 150px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.botonsito{
+    font-family: 'Times New Roman', Times, serif;
+    position: center;
+    border: solid 1px;
+}
+
+.botonsito::before{
+    content: "Pasar por encima";
+}
+
+.botonsito:hover::before{
+    color: white;
+    background-color: green;
+    content: "HECHO";
+}
